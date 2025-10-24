@@ -97,7 +97,6 @@ class _WordHurdlePageState extends State<WordHurdlePage> {
             // Only letters
             if (RegExp(r'^[A-Z]$').hasMatch(key)) {
               provider.inputLetter(key);
-              print("sdasg");
             }
             // Backspace
             else if (event.logicalKey == LogicalKeyboardKey.backspace) {
